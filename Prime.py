@@ -5,6 +5,6 @@ for k in range(2, x):
         isprime = False
         break  
 if isprime:
-    print('is prime')
+    print('{} is prime'.format(x))
 else:
-    print('is not prime')
+    print('{} is not prime'.format(x))
